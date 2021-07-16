@@ -37,7 +37,7 @@ public class Main {
                 }else{
                     arr[count]++;
                 }
-              
+
                 break;
             case  '-':
                 if((arr[count]-1)<0) {
@@ -49,13 +49,13 @@ public class Main {
             case '.':
                 System.out.print((char) arr[count]);
             case ',':
-//
-//            try {
-//
-//                        arr[count] =Integer.parseInt(reader.readLine());
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
+
+            try {
+
+                        arr[count] =Integer.parseInt(reader.readLine());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             break;
             case '[':
                 break;
